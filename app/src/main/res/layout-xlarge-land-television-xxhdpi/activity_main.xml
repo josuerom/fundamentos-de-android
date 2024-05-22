@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_android"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginLeft="168dp"
+        android:text="Iniciar Sesiòn"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRARSE"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENIDO"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="27dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

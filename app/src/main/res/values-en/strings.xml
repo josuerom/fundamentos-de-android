@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Activity</string>
+    <string name="titulo_app">WELCOME</string>
+    <string name="boton_inicio">LOGIN</string>
+    <string name="boton_registro">SIGN UP</string>
+</resources>

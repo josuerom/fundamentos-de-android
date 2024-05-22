@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo_android"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_inicio"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/boton_registro"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_app"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="138dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Activité Android</string>
+    <string name="titulo_app">BIENVENUE</string>
+    <string name="boton_inicio">COMMENCER LA SESSION</string>
+    <string name="boton_registro">ENREGISTREMENT</string>
+</resources>

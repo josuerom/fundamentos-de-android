@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android-activiteit</string>
+    <string name="titulo_app">WELKOM</string>
+    <string name="boton_inicio">LOG IN</string>
+    <string name="boton_registro">CHECK IN</string>
+</resources>
